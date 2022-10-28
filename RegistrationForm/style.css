@@ -1,0 +1,331 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Registration Section */
+
+
+body {
+    min-height: 100%;
+}
+
+main {
+    margin-top: 2%;
+}
+
+#form {
+    font-family: Roboto, Arial, sans-serif;
+    width: 50%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f7f7f7;
+    box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.062), 0 6px 20px 0 rgba(102, 102, 102, 0.062);
+    border-radius: 10px;
+}
+
+h1 {
+    padding-top: 28px;
+    padding-bottom: 5px;
+    color: #242526;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+p {
+    padding-bottom: 24px;
+    color: #242526;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+input {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1.5px;
+    border-color: #502A7A;
+}
+
+label {
+    font-size: 18px;
+    margin-left: 159px;
+}
+
+#firstname {
+    margin-left: 52px;
+    width: 40%;
+    outline: none;
+    margin-bottom: 15px;
+    border: 1.5px solid #242526;
+}
+
+#lastname {
+    outline: none;
+    margin-left: 54px;
+    width: 40%;
+    margin-bottom: 15px;
+    border: 1px solid #242526;
+}
+
+#phone {
+    outline: none;
+    margin-left: 64px;
+    width: 40%;
+    margin-bottom: 15px;
+    border: 1px solid #242526;
+}
+
+#email {
+    outline: none;
+    margin-left: 93px;
+    width: 40%;
+    margin-bottom: 15px;
+    border: 1px solid #242526;
+}
+
+#gender {
+    outline: none;
+    padding: 8px;
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 82px;
+    width: 40%;
+    margin-bottom: 15px;
+    border: 1px solid #242526;
+}
+
+#date {
+    width: 40%;
+    margin-left: 37px;
+    outline: none;
+    margin-bottom: 15px;
+    border: 1px solid #242526;
+}
+
+#color {
+    outline: none;
+    width: 40%;
+    padding: 1px;
+    margin-left: 28px;
+    margin-bottom: 20px;
+    border: 1px solid #502A7A;
+}
+
+#checkbox {
+    margin-left: 149px;
+    margin-bottom: 15px;
+}
+
+#checktext {
+    margin-left: 5px;
+    text-align: justify;
+    margin-right: auto;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    background: #bb8fda;
+    border-radius: 5px;
+    border: #502A7A;
+    border: 2px;
+    border-color: #502A7A;
+    display: block;
+    margin: 15px auto 0;
+    padding: 18px 30px;
+    width: 30%;
+    font-size: large;
+    font-weight: 500;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #502A7A;
+}
+
+#btn a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: #242526;
+}
+
+.lgn {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+/* Registration Section End */
+
+/* Login Section */
+
+.login {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: x-large;
+    width: 100%;
+    max-width: 30%;
+    background-color: white;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    filter: opacity(0.9);
+}
+
+.login img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+img {
+    background-color: #DEDAF1;
+}
+
+.email {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 0px;
+    border: 1px solid #242526;
+}
+
+.password {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 15px;
+    border: 1px solid #242526;
+}
+
+#wel {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.wel {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.tts {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    background: #bb8fda;
+    border-radius: 5px;
+    border: #502A7A;
+    border: 2px;
+    border-color: #502A7A;
+    display: block;
+    margin: 15px auto 0;
+    padding: 18px 30px;
+    width: 30%;
+    font-size: large;
+    font-weight: 500;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#login:hover {
+    background-color: #502A7A;
+    color: #ffffff;
+}
+
+#login a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: #242526;
+}
+
+
+/* Login Section End */
+
+/* Success Page */
+.success {
+    background-color: #f7f7f7;
+    background-image: none;
+}
+
+.success main {
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    background-color: #f7f7f7;
+    margin-top: 10%;
+    border-radius: 7px;
+}
+
+.success img {
+    display: block;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.success h2 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: xx-large;
+    margin-bottom: 5px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.success p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 36px;
+    padding-top: 7px;
+}
+
+/* Success Page End */
