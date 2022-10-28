@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.text {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 350px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 0 3em;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 0 3em;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 0 3em;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.icon {
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+
+.title {
+    margin-bottom: 1em;
+}
+
+.text {
+    width: 90%;
+}
+
+button {
+    margin-top: 3em;
+    padding: 1em 3em;
+    border-radius: 5px;
+    margin-bottom: 3em;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.sedans-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs-btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover,
+button:focus {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.button {
+    font-family: Poppins, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    color: antiquewhite;
+    padding: 12px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: rgb(0, 68, 255);
+    border: 2px solid rgb(0, 68, 255);
+}
+
+@media screen and (min-width:703px) {
+    body {
+        height: 100vh;
+        align-items: center;
+    }
+
+    .flex {
+        flex-direction: row;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 780px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .sedans {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .luxury {
+        border-radius: 0px 10px 10px 0px;
+    }
+}
